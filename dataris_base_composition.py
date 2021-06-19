@@ -6,6 +6,7 @@ if TYPE_CHECKING:
     from utils.models.timed_operation import DATARISCompositionOperation
 
 class DATARISCompositionBase():
+    version='0.0.1'
 
     __trans={}
 
